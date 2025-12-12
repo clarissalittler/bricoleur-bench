@@ -1,0 +1,46 @@
+{
+  "trace": "traces/maze-generator-solver/debugger/trace-01.md",
+  "output_root": "traces/maze-generator-solver/debugger/snapshots/trace-01/full-state",
+  "write_full_state": true,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Generator that sometimes blocks the only corridor",
+      "changed_files": [
+        "maze.py"
+      ],
+      "written_files": [
+        "maze.py"
+      ],
+      "all_files": [
+        "maze.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Add solver + debug probe (count reachable cells)",
+      "changed_files": [
+        "maze.py"
+      ],
+      "written_files": [
+        "maze.py"
+      ],
+      "all_files": [
+        "maze.py"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Generator guarantees connectivity via carved path",
+      "changed_files": [
+        "maze.py"
+      ],
+      "written_files": [
+        "maze.py"
+      ],
+      "all_files": [
+        "maze.py"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "trace": "traces/conway-life-sim/improviser/trace-01.md",
+  "output_root": "traces/conway-life-sim/improviser/snapshots/trace-01/changed-only",
+  "write_full_state": false,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Quick stepper (assumes input is clean)",
+      "changed_files": [
+        "life.py",
+        "patterns/blinker.txt",
+        "patterns/glider.txt"
+      ],
+      "written_files": [
+        "life.py",
+        "patterns/blinker.txt",
+        "patterns/glider.txt"
+      ],
+      "all_files": [
+        "life.py",
+        "patterns/blinker.txt",
+        "patterns/glider.txt"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Add CLI and looping",
+      "changed_files": [
+        "life.py"
+      ],
+      "written_files": [
+        "life.py"
+      ],
+      "all_files": [
+        "life.py",
+        "patterns/blinker.txt",
+        "patterns/glider.txt"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Validate input and steps",
+      "changed_files": [
+        "life.py"
+      ],
+      "written_files": [
+        "life.py"
+      ],
+      "all_files": [
+        "life.py",
+        "patterns/blinker.txt",
+        "patterns/glider.txt"
+      ]
+    }
+  ]
+}

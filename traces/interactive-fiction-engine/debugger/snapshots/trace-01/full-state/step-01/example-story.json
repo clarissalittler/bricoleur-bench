@@ -1,0 +1,38 @@
+{
+  "start": "wake",
+  "nodes": {
+    "wake": {
+      "text": "You wake in a quiet room. There is a door and a window.",
+      "choices": [
+        { "label": "Open the door", "to": "hall" },
+        { "label": "Look out the window", "to": "window", "requires": ["curtain_open"] },
+        { "label": "Pull the curtain aside", "to": "curtain" }
+      ]
+    },
+    "curtain": {
+      "text": "Dusty light spills in. The street outside looks empty.",
+      "sets": ["curtain_open"],
+      "choices": [
+        { "label": "Look out the window", "to": "window" },
+        { "label": "Open the door", "to": "hall" }
+      ]
+    },
+    "window": {
+      "text": "You see your reflection and, behind it, someone waving from the street.",
+      "choices": [
+        { "label": "Wave back", "to": "ending_wave" },
+        { "label": "Step away", "to": "ending_step" }
+      ]
+    },
+    "hall": {
+      "text": "The hallway smells like old books. A staircase leads down.",
+      "choices": [
+        { "label": "Go downstairs", "to": "ending_down" },
+        { "label": "Go back", "to": "wake" }
+      ]
+    },
+    "ending_wave": { "text": "The figure smiles. Somehow, you feel less alone.", "end": true, "choices": [] },
+    "ending_step": { "text": "You step away. The room seems quieter than before.", "end": true, "choices": [] },
+    "ending_down": { "text": "You go downstairs into the unknown.", "end": true, "choices": [] }
+  }
+}

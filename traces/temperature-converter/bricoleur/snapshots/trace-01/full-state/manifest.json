@@ -1,0 +1,111 @@
+{
+  "trace": "traces/temperature-converter/bricoleur/trace-01.md",
+  "output_root": "traces/temperature-converter/bricoleur/snapshots/trace-01/full-state",
+  "write_full_state": true,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Quick scaffold",
+      "changed_files": [
+        "convert.py"
+      ],
+      "written_files": [
+        "convert.py"
+      ],
+      "all_files": [
+        "convert.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Adds Fahrenheit path but mixes formulas",
+      "changed_files": [
+        "convert.py"
+      ],
+      "written_files": [
+        "convert.py"
+      ],
+      "all_files": [
+        "convert.py"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Fixes Celsius conversion and adds basic validation",
+      "changed_files": [
+        "convert.py"
+      ],
+      "written_files": [
+        "convert.py"
+      ],
+      "all_files": [
+        "convert.py"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Copies logic into a script and forgets units in output",
+      "changed_files": [
+        "convert.py"
+      ],
+      "written_files": [
+        "convert.py"
+      ],
+      "all_files": [
+        "convert.py"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Introduces helpers and a bug when negating Fahrenheit",
+      "changed_files": [
+        "convert.py"
+      ],
+      "written_files": [
+        "convert.py"
+      ],
+      "all_files": [
+        "convert.py"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Fixes helper and guards against double flags",
+      "changed_files": [
+        "convert.py"
+      ],
+      "written_files": [
+        "convert.py"
+      ],
+      "all_files": [
+        "convert.py"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Handles non-finite inputs and clarifies errors",
+      "changed_files": [
+        "convert.py"
+      ],
+      "written_files": [
+        "convert.py"
+      ],
+      "all_files": [
+        "convert.py"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Final polish and examples",
+      "changed_files": [
+        "convert.py"
+      ],
+      "written_files": [
+        "convert.py"
+      ],
+      "all_files": [
+        "convert.py"
+      ]
+    }
+  ]
+}

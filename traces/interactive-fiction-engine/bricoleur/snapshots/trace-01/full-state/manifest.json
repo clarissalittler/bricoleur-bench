@@ -1,0 +1,53 @@
+{
+  "trace": "traces/interactive-fiction-engine/bricoleur/trace-01.md",
+  "output_root": "traces/interactive-fiction-engine/bricoleur/snapshots/trace-01/full-state",
+  "write_full_state": true,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Load JSON and print the start node",
+      "changed_files": [
+        "example-story.json",
+        "play.py"
+      ],
+      "written_files": [
+        "example-story.json",
+        "play.py"
+      ],
+      "all_files": [
+        "example-story.json",
+        "play.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Add choices and a simple input loop (index bug)",
+      "changed_files": [
+        "play.py"
+      ],
+      "written_files": [
+        "example-story.json",
+        "play.py"
+      ],
+      "all_files": [
+        "example-story.json",
+        "play.py"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "State flags + conditional choices + robust input",
+      "changed_files": [
+        "play.py"
+      ],
+      "written_files": [
+        "example-story.json",
+        "play.py"
+      ],
+      "all_files": [
+        "example-story.json",
+        "play.py"
+      ]
+    }
+  ]
+}

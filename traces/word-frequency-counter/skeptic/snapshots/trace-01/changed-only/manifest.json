@@ -1,0 +1,62 @@
+{
+  "trace": "traces/word-frequency-counter/skeptic/trace-01.md",
+  "output_root": "traces/word-frequency-counter/skeptic/snapshots/trace-01/changed-only",
+  "write_full_state": false,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Red tests (inline harness)",
+      "changed_files": [
+        "harness.py"
+      ],
+      "written_files": [
+        "harness.py"
+      ],
+      "all_files": [
+        "harness.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Minimal implementation (make the harness pass)",
+      "changed_files": [
+        "count_words.py"
+      ],
+      "written_files": [
+        "count_words.py"
+      ],
+      "all_files": [
+        "count_words.py",
+        "harness.py"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Tighten `--top` and add a debug hook",
+      "changed_files": [
+        "count_words.py"
+      ],
+      "written_files": [
+        "count_words.py"
+      ],
+      "all_files": [
+        "count_words.py",
+        "harness.py"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Confidence sweep (contractions + tie ordering)",
+      "changed_files": [
+        "count_words.py"
+      ],
+      "written_files": [
+        "count_words.py"
+      ],
+      "all_files": [
+        "count_words.py",
+        "harness.py"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "trace": "traces/maze-generator-solver/skeptic/trace-02.md",
+  "output_root": "traces/maze-generator-solver/skeptic/snapshots/trace-02/full-state",
+  "write_full_state": true,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Keep solver output stable; add optional `--show-path`",
+      "changed_files": [
+        "maze.py"
+      ],
+      "written_files": [
+        "maze.py"
+      ],
+      "all_files": [
+        "maze.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Keep parser strict about exactly one S/E",
+      "changed_files": [
+        "maze.py"
+      ],
+      "written_files": [
+        "maze.py"
+      ],
+      "all_files": [
+        "maze.py"
+      ]
+    }
+  ]
+}

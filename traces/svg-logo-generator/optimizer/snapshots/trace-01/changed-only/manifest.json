@@ -1,0 +1,46 @@
+{
+  "trace": "traces/svg-logo-generator/optimizer/trace-01.md",
+  "output_root": "traces/svg-logo-generator/optimizer/snapshots/trace-01/changed-only",
+  "write_full_state": false,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Baseline renderer",
+      "changed_files": [
+        "logo.py"
+      ],
+      "written_files": [
+        "logo.py"
+      ],
+      "all_files": [
+        "logo.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Use list + join for larger templates",
+      "changed_files": [
+        "logo.py"
+      ],
+      "written_files": [
+        "logo.py"
+      ],
+      "all_files": [
+        "logo.py"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Add themes without changing default output",
+      "changed_files": [
+        "logo.py"
+      ],
+      "written_files": [
+        "logo.py"
+      ],
+      "all_files": [
+        "logo.py"
+      ]
+    }
+  ]
+}

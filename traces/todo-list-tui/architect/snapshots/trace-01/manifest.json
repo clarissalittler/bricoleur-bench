@@ -1,0 +1,78 @@
+{
+  "trace": "traces/todo-list-tui/architect/trace-01.md",
+  "output_root": "traces/todo-list-tui/architect/snapshots/trace-01",
+  "write_full_state": true,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Storage contract and invariants",
+      "changed_files": [
+        "storage.py"
+      ],
+      "written_files": [
+        "storage.py"
+      ],
+      "all_files": [
+        "storage.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "CLI scaffolding (handlers first, then wiring)",
+      "changed_files": [
+        "todo.py"
+      ],
+      "written_files": [
+        "storage.py",
+        "todo.py"
+      ],
+      "all_files": [
+        "storage.py",
+        "todo.py"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Implement add/list/done (with tiny UX choices)",
+      "changed_files": [
+        "todo.py"
+      ],
+      "written_files": [
+        "storage.py",
+        "todo.py"
+      ],
+      "all_files": [
+        "storage.py",
+        "todo.py"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Wire `main` and capture storage errors cleanly",
+      "changed_files": [
+        "todo.py"
+      ],
+      "written_files": [
+        "storage.py",
+        "todo.py"
+      ],
+      "all_files": [
+        "storage.py",
+        "todo.py"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Dry run",
+      "changed_files": [],
+      "written_files": [
+        "storage.py",
+        "todo.py"
+      ],
+      "all_files": [
+        "storage.py",
+        "todo.py"
+      ]
+    }
+  ]
+}

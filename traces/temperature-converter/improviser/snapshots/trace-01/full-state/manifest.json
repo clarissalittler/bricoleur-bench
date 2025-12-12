@@ -1,0 +1,85 @@
+{
+  "trace": "traces/temperature-converter/improviser/trace-01.md",
+  "output_root": "traces/temperature-converter/improviser/snapshots/trace-01/full-state",
+  "write_full_state": true,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Fast CLI (works, but sloppy)",
+      "changed_files": [
+        "convert.py"
+      ],
+      "written_files": [
+        "convert.py"
+      ],
+      "all_files": [
+        "convert.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Quick guardrails (slightly over-corrects)",
+      "changed_files": [
+        "convert.py"
+      ],
+      "written_files": [
+        "convert.py"
+      ],
+      "all_files": [
+        "convert.py"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Argparse does the exclusive-flag job",
+      "changed_files": [
+        "convert.py"
+      ],
+      "written_files": [
+        "convert.py"
+      ],
+      "all_files": [
+        "convert.py"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Formatting (forgets units once)",
+      "changed_files": [
+        "convert.py"
+      ],
+      "written_files": [
+        "convert.py"
+      ],
+      "all_files": [
+        "convert.py"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Reject non-finite inputs",
+      "changed_files": [
+        "convert.py"
+      ],
+      "written_files": [
+        "convert.py"
+      ],
+      "all_files": [
+        "convert.py"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Examples in help output",
+      "changed_files": [
+        "convert.py"
+      ],
+      "written_files": [
+        "convert.py"
+      ],
+      "all_files": [
+        "convert.py"
+      ]
+    }
+  ]
+}

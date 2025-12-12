@@ -1,0 +1,53 @@
+{
+  "trace": "traces/haiku-generator/architect/trace-01.md",
+  "output_root": "traces/haiku-generator/architect/snapshots/trace-01/changed-only",
+  "write_full_state": false,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Core module (templates)",
+      "changed_files": [
+        "haiku_core.py",
+        "words/basic.txt"
+      ],
+      "written_files": [
+        "haiku_core.py",
+        "words/basic.txt"
+      ],
+      "all_files": [
+        "haiku_core.py",
+        "words/basic.txt"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "CLI wrapper with deterministic seed",
+      "changed_files": [
+        "haiku.py"
+      ],
+      "written_files": [
+        "haiku.py"
+      ],
+      "all_files": [
+        "haiku.py",
+        "haiku_core.py",
+        "words/basic.txt"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Keep defaults stable; add room for future themes",
+      "changed_files": [
+        "haiku_core.py"
+      ],
+      "written_files": [
+        "haiku_core.py"
+      ],
+      "all_files": [
+        "haiku.py",
+        "haiku_core.py",
+        "words/basic.txt"
+      ]
+    }
+  ]
+}

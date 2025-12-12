@@ -1,0 +1,51 @@
+{
+  "trace": "traces/haiku-generator/bricoleur/trace-01.md",
+  "output_root": "traces/haiku-generator/bricoleur/snapshots/trace-01/changed-only",
+  "write_full_state": false,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Quick random poem (not deterministic)",
+      "changed_files": [
+        "haiku.py",
+        "words/basic.txt"
+      ],
+      "written_files": [
+        "haiku.py",
+        "words/basic.txt"
+      ],
+      "all_files": [
+        "haiku.py",
+        "words/basic.txt"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Add seed and style switch (micro vs haiku)",
+      "changed_files": [
+        "haiku.py"
+      ],
+      "written_files": [
+        "haiku.py"
+      ],
+      "all_files": [
+        "haiku.py",
+        "words/basic.txt"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Validate word list is non-empty and errors are clear",
+      "changed_files": [
+        "haiku.py"
+      ],
+      "written_files": [
+        "haiku.py"
+      ],
+      "all_files": [
+        "haiku.py",
+        "words/basic.txt"
+      ]
+    }
+  ]
+}

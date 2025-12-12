@@ -1,0 +1,53 @@
+{
+  "trace": "traces/interactive-fiction-engine/skeptic/trace-01.md",
+  "output_root": "traces/interactive-fiction-engine/skeptic/snapshots/trace-01/changed-only",
+  "write_full_state": false,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Harness first (expects a prompt and at least one choice)",
+      "changed_files": [
+        "example-story.json",
+        "harness.py"
+      ],
+      "written_files": [
+        "example-story.json",
+        "harness.py"
+      ],
+      "all_files": [
+        "example-story.json",
+        "harness.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Minimal `play.py` to satisfy harness shape",
+      "changed_files": [
+        "play.py"
+      ],
+      "written_files": [
+        "play.py"
+      ],
+      "all_files": [
+        "example-story.json",
+        "harness.py",
+        "play.py"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Full loop + flags + validation",
+      "changed_files": [
+        "play.py"
+      ],
+      "written_files": [
+        "play.py"
+      ],
+      "all_files": [
+        "example-story.json",
+        "harness.py",
+        "play.py"
+      ]
+    }
+  ]
+}

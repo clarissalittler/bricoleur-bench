@@ -1,0 +1,48 @@
+{
+  "trace": "traces/svg-logo-generator/skeptic/trace-01.md",
+  "output_root": "traces/svg-logo-generator/skeptic/snapshots/trace-01/changed-only",
+  "write_full_state": false,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Harness first (must contain <svg>, </svg>, and <text>)",
+      "changed_files": [
+        "harness.py"
+      ],
+      "written_files": [
+        "harness.py"
+      ],
+      "all_files": [
+        "harness.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Minimal implementation to satisfy harness",
+      "changed_files": [
+        "logo.py"
+      ],
+      "written_files": [
+        "logo.py"
+      ],
+      "all_files": [
+        "harness.py",
+        "logo.py"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "CLI flags and validation (keeps structure stable)",
+      "changed_files": [
+        "logo.py"
+      ],
+      "written_files": [
+        "logo.py"
+      ],
+      "all_files": [
+        "harness.py",
+        "logo.py"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "trace": "traces/interactive-fiction-engine/architect/trace-02.md",
+  "output_root": "traces/interactive-fiction-engine/architect/snapshots/trace-02/full-state",
+  "write_full_state": true,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Add strict validation of story graph",
+      "changed_files": [
+        "play.py"
+      ],
+      "written_files": [
+        "play.py"
+      ],
+      "all_files": [
+        "play.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Provide a small second example story with a deliberate bug",
+      "changed_files": [
+        "example-story-02.json",
+        "play.py"
+      ],
+      "written_files": [
+        "example-story-02.json",
+        "play.py"
+      ],
+      "all_files": [
+        "example-story-02.json",
+        "play.py"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "trace": "traces/conway-life-sim/bricoleur/trace-01.md",
+  "output_root": "traces/conway-life-sim/bricoleur/snapshots/trace-01/full-state",
+  "write_full_state": true,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Parse and print the grid (no stepping yet)",
+      "changed_files": [
+        "life.py",
+        "patterns/blinker.txt",
+        "patterns/glider.txt"
+      ],
+      "written_files": [
+        "life.py",
+        "patterns/blinker.txt",
+        "patterns/glider.txt"
+      ],
+      "all_files": [
+        "life.py",
+        "patterns/blinker.txt",
+        "patterns/glider.txt"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "First attempt at stepping (edge handling bug)",
+      "changed_files": [
+        "life.py"
+      ],
+      "written_files": [
+        "life.py",
+        "patterns/blinker.txt",
+        "patterns/glider.txt"
+      ],
+      "all_files": [
+        "life.py",
+        "patterns/blinker.txt",
+        "patterns/glider.txt"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Fix bounds + validate characters",
+      "changed_files": [
+        "life.py"
+      ],
+      "written_files": [
+        "life.py",
+        "patterns/blinker.txt",
+        "patterns/glider.txt"
+      ],
+      "all_files": [
+        "life.py",
+        "patterns/blinker.txt",
+        "patterns/glider.txt"
+      ]
+    }
+  ]
+}

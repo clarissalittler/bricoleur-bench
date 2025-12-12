@@ -1,0 +1,53 @@
+{
+  "trace": "traces/conway-life-sim/optimizer/trace-01.md",
+  "output_root": "traces/conway-life-sim/optimizer/snapshots/trace-01/full-state",
+  "write_full_state": true,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Straightforward implementation",
+      "changed_files": [
+        "life.py",
+        "patterns/blinker.txt"
+      ],
+      "written_files": [
+        "life.py",
+        "patterns/blinker.txt"
+      ],
+      "all_files": [
+        "life.py",
+        "patterns/blinker.txt"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Keep internal grid as booleans (less string indexing)",
+      "changed_files": [
+        "life.py"
+      ],
+      "written_files": [
+        "life.py",
+        "patterns/blinker.txt"
+      ],
+      "all_files": [
+        "life.py",
+        "patterns/blinker.txt"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Validate characters and keep output stable",
+      "changed_files": [
+        "life.py"
+      ],
+      "written_files": [
+        "life.py",
+        "patterns/blinker.txt"
+      ],
+      "all_files": [
+        "life.py",
+        "patterns/blinker.txt"
+      ]
+    }
+  ]
+}

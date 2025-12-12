@@ -1,0 +1,59 @@
+{
+  "trace": "traces/word-frequency-counter/bricoleur/trace-01.md",
+  "output_root": "traces/word-frequency-counter/bricoleur/snapshots/trace-01/full-state",
+  "write_full_state": true,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Quick skeleton",
+      "changed_files": [
+        "count_words.py"
+      ],
+      "written_files": [
+        "count_words.py"
+      ],
+      "all_files": [
+        "count_words.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Normalize apostrophes and empty file",
+      "changed_files": [
+        "count_words.py"
+      ],
+      "written_files": [
+        "count_words.py"
+      ],
+      "all_files": [
+        "count_words.py"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Friendly errors",
+      "changed_files": [
+        "count_words.py"
+      ],
+      "written_files": [
+        "count_words.py"
+      ],
+      "all_files": [
+        "count_words.py"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Top-N clamp and formatting",
+      "changed_files": [
+        "count_words.py"
+      ],
+      "written_files": [
+        "count_words.py"
+      ],
+      "all_files": [
+        "count_words.py"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "trace": "traces/interactive-fiction-engine/planner/trace-01.md",
+  "output_root": "traces/interactive-fiction-engine/planner/snapshots/trace-01/changed-only",
+  "write_full_state": false,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Loader + schema checkpoints",
+      "changed_files": [
+        "example-story.json",
+        "play.py"
+      ],
+      "written_files": [
+        "example-story.json",
+        "play.py"
+      ],
+      "all_files": [
+        "example-story.json",
+        "play.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Choice filtering (pure helper)",
+      "changed_files": [
+        "play.py"
+      ],
+      "written_files": [
+        "play.py"
+      ],
+      "all_files": [
+        "example-story.json",
+        "play.py"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Main loop + validation of user input",
+      "changed_files": [
+        "play.py"
+      ],
+      "written_files": [
+        "play.py"
+      ],
+      "all_files": [
+        "example-story.json",
+        "play.py"
+      ]
+    }
+  ]
+}

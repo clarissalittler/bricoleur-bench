@@ -1,0 +1,33 @@
+{
+  "trace": "traces/temperature-converter/bricoleur/trace-02.md",
+  "output_root": "traces/temperature-converter/bricoleur/snapshots/trace-02/changed-only",
+  "write_full_state": false,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Baseline works; tighten UX",
+      "changed_files": [
+        "convert.py"
+      ],
+      "written_files": [
+        "convert.py"
+      ],
+      "all_files": [
+        "convert.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Better help + clearer errors",
+      "changed_files": [
+        "convert.py"
+      ],
+      "written_files": [
+        "convert.py"
+      ],
+      "all_files": [
+        "convert.py"
+      ]
+    }
+  ]
+}

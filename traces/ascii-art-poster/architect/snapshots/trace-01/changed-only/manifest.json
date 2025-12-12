@@ -1,0 +1,48 @@
+{
+  "trace": "traces/ascii-art-poster/architect/trace-01.md",
+  "output_root": "traces/ascii-art-poster/architect/snapshots/trace-01/changed-only",
+  "write_full_state": false,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Core module (rendering contract)",
+      "changed_files": [
+        "poster_core.py"
+      ],
+      "written_files": [
+        "poster_core.py"
+      ],
+      "all_files": [
+        "poster_core.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "CLI wrapper",
+      "changed_files": [
+        "poster.py"
+      ],
+      "written_files": [
+        "poster.py"
+      ],
+      "all_files": [
+        "poster.py",
+        "poster_core.py"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Leave room for themes without breaking defaults",
+      "changed_files": [
+        "poster_core.py"
+      ],
+      "written_files": [
+        "poster_core.py"
+      ],
+      "all_files": [
+        "poster.py",
+        "poster_core.py"
+      ]
+    }
+  ]
+}

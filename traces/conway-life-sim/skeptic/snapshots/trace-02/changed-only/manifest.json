@@ -1,0 +1,33 @@
+{
+  "trace": "traces/conway-life-sim/skeptic/trace-02.md",
+  "output_root": "traces/conway-life-sim/skeptic/snapshots/trace-02/changed-only",
+  "write_full_state": false,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Add `--wrap` option",
+      "changed_files": [
+        "life.py"
+      ],
+      "written_files": [
+        "life.py"
+      ],
+      "all_files": [
+        "life.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Keep default rendering stable; add `--alive` and `--dead` chars",
+      "changed_files": [
+        "life.py"
+      ],
+      "written_files": [
+        "life.py"
+      ],
+      "all_files": [
+        "life.py"
+      ]
+    }
+  ]
+}

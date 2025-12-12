@@ -1,0 +1,53 @@
+{
+  "trace": "traces/haiku-generator/skeptic/trace-01.md",
+  "output_root": "traces/haiku-generator/skeptic/snapshots/trace-01/changed-only",
+  "write_full_state": false,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Harness first (same seed => same output)",
+      "changed_files": [
+        "harness.py",
+        "words/basic.txt"
+      ],
+      "written_files": [
+        "harness.py",
+        "words/basic.txt"
+      ],
+      "all_files": [
+        "harness.py",
+        "words/basic.txt"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Minimal deterministic implementation",
+      "changed_files": [
+        "haiku.py"
+      ],
+      "written_files": [
+        "haiku.py"
+      ],
+      "all_files": [
+        "haiku.py",
+        "harness.py",
+        "words/basic.txt"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Validation for missing/empty word lists",
+      "changed_files": [
+        "haiku.py"
+      ],
+      "written_files": [
+        "haiku.py"
+      ],
+      "all_files": [
+        "haiku.py",
+        "harness.py",
+        "words/basic.txt"
+      ]
+    }
+  ]
+}

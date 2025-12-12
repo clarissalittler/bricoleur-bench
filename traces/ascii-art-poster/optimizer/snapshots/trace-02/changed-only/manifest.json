@@ -1,0 +1,33 @@
+{
+  "trace": "traces/ascii-art-poster/optimizer/trace-02.md",
+  "output_root": "traces/ascii-art-poster/optimizer/snapshots/trace-02/changed-only",
+  "write_full_state": false,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Add theme without changing default",
+      "changed_files": [
+        "poster.py"
+      ],
+      "written_files": [
+        "poster.py"
+      ],
+      "all_files": [
+        "poster.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Make default theme explicit for tests",
+      "changed_files": [
+        "poster.py"
+      ],
+      "written_files": [
+        "poster.py"
+      ],
+      "all_files": [
+        "poster.py"
+      ]
+    }
+  ]
+}

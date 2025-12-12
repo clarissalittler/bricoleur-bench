@@ -1,0 +1,53 @@
+{
+  "trace": "traces/haiku-generator/debugger/trace-01.md",
+  "output_root": "traces/haiku-generator/debugger/snapshots/trace-01/full-state",
+  "write_full_state": true,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Repro nondeterminism",
+      "changed_files": [
+        "haiku.py",
+        "words/basic.txt"
+      ],
+      "written_files": [
+        "haiku.py",
+        "words/basic.txt"
+      ],
+      "all_files": [
+        "haiku.py",
+        "words/basic.txt"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Add seed and a quick \u201csame-seed\u201d probe",
+      "changed_files": [
+        "haiku.py"
+      ],
+      "written_files": [
+        "haiku.py",
+        "words/basic.txt"
+      ],
+      "all_files": [
+        "haiku.py",
+        "words/basic.txt"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Style handling + validation",
+      "changed_files": [
+        "haiku.py"
+      ],
+      "written_files": [
+        "haiku.py",
+        "words/basic.txt"
+      ],
+      "all_files": [
+        "haiku.py",
+        "words/basic.txt"
+      ]
+    }
+  ]
+}

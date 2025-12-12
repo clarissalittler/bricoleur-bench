@@ -1,0 +1,33 @@
+{
+  "trace": "traces/word-frequency-counter/skeptic/trace-02.md",
+  "output_root": "traces/word-frequency-counter/skeptic/snapshots/trace-02/changed-only",
+  "write_full_state": false,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Deterministic ordering for ties",
+      "changed_files": [
+        "count_words.py"
+      ],
+      "written_files": [
+        "count_words.py"
+      ],
+      "all_files": [
+        "count_words.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Slightly broader tokenization (keeps default stable)",
+      "changed_files": [
+        "count_words.py"
+      ],
+      "written_files": [
+        "count_words.py"
+      ],
+      "all_files": [
+        "count_words.py"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "trace": "traces/todo-list-tui/planner/trace-02.md",
+  "output_root": "traces/todo-list-tui/planner/snapshots/trace-02/full-state",
+  "write_full_state": true,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Add strict parsing and skip malformed lines",
+      "changed_files": [
+        "todo.py"
+      ],
+      "written_files": [
+        "todo.py"
+      ],
+      "all_files": [
+        "todo.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Add `rm <id>` command",
+      "changed_files": [
+        "todo.py"
+      ],
+      "written_files": [
+        "todo.py"
+      ],
+      "all_files": [
+        "todo.py"
+      ]
+    }
+  ]
+}

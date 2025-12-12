@@ -1,0 +1,53 @@
+{
+  "trace": "traces/interactive-fiction-engine/improviser/trace-01.md",
+  "output_root": "traces/interactive-fiction-engine/improviser/snapshots/trace-01/full-state",
+  "write_full_state": true,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Quick loop (no state)",
+      "changed_files": [
+        "example-story.json",
+        "play.py"
+      ],
+      "written_files": [
+        "example-story.json",
+        "play.py"
+      ],
+      "all_files": [
+        "example-story.json",
+        "play.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Adds flags and conditional choice filtering",
+      "changed_files": [
+        "play.py"
+      ],
+      "written_files": [
+        "example-story.json",
+        "play.py"
+      ],
+      "all_files": [
+        "example-story.json",
+        "play.py"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Argparse + input validation",
+      "changed_files": [
+        "play.py"
+      ],
+      "written_files": [
+        "example-story.json",
+        "play.py"
+      ],
+      "all_files": [
+        "example-story.json",
+        "play.py"
+      ]
+    }
+  ]
+}

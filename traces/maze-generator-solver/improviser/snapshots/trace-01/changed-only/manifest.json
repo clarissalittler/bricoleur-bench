@@ -1,0 +1,46 @@
+{
+  "trace": "traces/maze-generator-solver/improviser/trace-01.md",
+  "output_root": "traces/maze-generator-solver/improviser/snapshots/trace-01/changed-only",
+  "write_full_state": false,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Generator only (accidentally makes ragged lines)",
+      "changed_files": [
+        "maze.py"
+      ],
+      "written_files": [
+        "maze.py"
+      ],
+      "all_files": [
+        "maze.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Add S/E and a solver (discover unsolvable mazes)",
+      "changed_files": [
+        "maze.py"
+      ],
+      "written_files": [
+        "maze.py"
+      ],
+      "all_files": [
+        "maze.py"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Guarantee solvable by carving a path first",
+      "changed_files": [
+        "maze.py"
+      ],
+      "written_files": [
+        "maze.py"
+      ],
+      "all_files": [
+        "maze.py"
+      ]
+    }
+  ]
+}

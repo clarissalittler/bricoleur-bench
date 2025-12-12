@@ -1,0 +1,33 @@
+{
+  "trace": "traces/svg-logo-generator/improviser/trace-02.md",
+  "output_root": "traces/svg-logo-generator/improviser/snapshots/trace-02/full-state",
+  "write_full_state": true,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Add font-size fitting loop",
+      "changed_files": [
+        "logo.py"
+      ],
+      "written_files": [
+        "logo.py"
+      ],
+      "all_files": [
+        "logo.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Keep output deterministic and validate theme",
+      "changed_files": [
+        "logo.py"
+      ],
+      "written_files": [
+        "logo.py"
+      ],
+      "all_files": [
+        "logo.py"
+      ]
+    }
+  ]
+}

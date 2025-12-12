@@ -1,0 +1,57 @@
+{
+  "trace": "traces/interactive-fiction-engine/architect/trace-01.md",
+  "output_root": "traces/interactive-fiction-engine/architect/snapshots/trace-01/full-state",
+  "write_full_state": true,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Data model + loader module",
+      "changed_files": [
+        "example-story.json",
+        "story.py"
+      ],
+      "written_files": [
+        "example-story.json",
+        "story.py"
+      ],
+      "all_files": [
+        "example-story.json",
+        "story.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Engine loop (pure-ish) and CLI",
+      "changed_files": [
+        "play.py"
+      ],
+      "written_files": [
+        "example-story.json",
+        "play.py",
+        "story.py"
+      ],
+      "all_files": [
+        "example-story.json",
+        "play.py",
+        "story.py"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Input validation stays in CLI layer",
+      "changed_files": [
+        "play.py"
+      ],
+      "written_files": [
+        "example-story.json",
+        "play.py",
+        "story.py"
+      ],
+      "all_files": [
+        "example-story.json",
+        "play.py",
+        "story.py"
+      ]
+    }
+  ]
+}

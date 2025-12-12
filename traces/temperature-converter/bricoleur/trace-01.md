@@ -5,15 +5,19 @@ A tinkering path toward a working converter script. The student tries to keep th
 ## Step 1: Quick scaffold
 Creates a minimal script with a single direction (C→F) and manual input parsing.
 
+Snapshot: convert.py
+
 ```python
 value = float(input("Temp in C: "))
 print(value * 9/5 + 32)
 ```
 
-Notes: Works for happy path but no error handling or Fahrenheit support. First run with `0` prints `32.0`, which matches the mental check.
+Run: `python convert.py` then enter `0` → prints `32.0`. Notes: Works for happy path but no error handling or Fahrenheit support.
 
 ## Step 2: Adds Fahrenheit path but mixes formulas
 Adds a flag prompt but accidentally reuses the same formula for both conversions.
+
+Snapshot: convert.py
 
 ```python
 scale = input("convert to (c/f): ").strip().lower()
@@ -27,10 +31,12 @@ else:
     print("unknown option")
 ```
 
-Notes: Notices Celsius conversion is wrong after trying `scale=c` and seeing numbers go up. Leaves a sticky note: "need formula (F-32)*5/9".
+Run: `python convert.py`, choose `c`, enter `32` → gets `89.6` (wrong). Sticky note: `need formula (F-32)*5/9`.
 
 ## Step 3: Fixes Celsius conversion and adds basic validation
 Switches the formula, guards against empty input, and keeps exceptions blunt.
+
+Snapshot: convert.py
 
 ```python
 scale = input("convert to (c/f): ").strip().lower()
@@ -50,10 +56,12 @@ else:
     print("unknown option")
 ```
 
-Notes: Happy path works; tests `scale=c` with `32` and gets `0.0`. Realizes this is clunky to reuse from the command line without prompts.
+Run: `python convert.py`, choose `c`, enter `32` → prints `0.0`. Notes: Works, but prompts make it annoying to use from the command line.
 
 ## Step 4: Copies logic into a script and forgets units in output
 Moves to `argparse` for direct CLI use but prints bare numbers and allows both flags at once.
+
+Snapshot: convert.py
 
 ```python
 import argparse
@@ -75,12 +83,14 @@ print(result)
 ```
 
 Notes: Manual tests:
-- `python convert.py 10 --to-f` → `50.0` (good).
-- `python convert.py 50 --to-c --to-f` silently prefers first branch—confusing.
+- `python convert.py --to-f 10` → `50.0` (good).
+- `python convert.py --to-c --to-f 50` silently prefers first branch—confusing.
 - Output lacks unit suffix.
 
 ## Step 5: Introduces helpers and a bug when negating Fahrenheit
 Extracts helper functions but inverts the subtraction incorrectly.
+
+Snapshot: convert.py
 
 ```python
 import argparse
@@ -109,10 +119,12 @@ else:
 print(result)
 ```
 
-Notes: Runs `python convert.py 32 --to-c` and gets `-0.0`, so suspects subtraction order. Scribbles "should be (fahrenheit - 32)" beside function.
+Notes: Runs `python convert.py --to-c 32` and gets `-0.0`, so suspects subtraction order. Scribbles "should be (fahrenheit - 32)" beside function.
 
 ## Step 6: Fixes helper and guards against double flags
 Restores correct formula, adds mutually exclusive group, and starts formatting output.
+
+Snapshot: convert.py
 
 ```python
 import argparse
@@ -146,6 +158,8 @@ Notes: Now `python convert.py --to-c 451` prints `232.78C`. Adds a TODO to rejec
 
 ## Step 7: Handles non-finite inputs and clarifies errors
 Adds a finite check and clearer exit messages, plus an example for future self.
+
+Snapshot: convert.py
 
 ```python
 import argparse
@@ -185,6 +199,44 @@ Notes: Quick probes:
 
 ## Step 8: Final polish and examples
 Adds short usage hints and keeps formatting consistent.
+
+Snapshot: convert.py
+
+```python
+import argparse
+import math
+
+parser = argparse.ArgumentParser(
+    description="Convert temperatures.\n\nExamples:\n  python convert.py --to-f 20\n  python convert.py --to-c 212",
+    formatter_class=argparse.RawDescriptionHelpFormatter,
+)
+group = parser.add_mutually_exclusive_group(required=True)
+group.add_argument("--to-f", action="store_true", help="Convert Celsius to Fahrenheit")
+group.add_argument("--to-c", action="store_true", help="Convert Fahrenheit to Celsius")
+parser.add_argument("value", type=float, help="Temperature to convert")
+args = parser.parse_args()
+
+
+def to_f(celsius: float) -> float:
+    return celsius * 9/5 + 32
+
+
+def to_c(fahrenheit: float) -> float:
+    return (fahrenheit - 32) * 5/9
+
+
+if not math.isfinite(args.value):
+    raise SystemExit("Temperature must be a finite number")
+
+if args.to_f:
+    result = to_f(args.value)
+    unit = "F"
+else:
+    result = to_c(args.value)
+    unit = "C"
+
+print(f"{result:.2f}{unit}")
+```
 
 ```
 # Example runs

@@ -1,0 +1,46 @@
+{
+  "trace": "traces/svg-logo-generator/debugger/trace-01.md",
+  "output_root": "traces/svg-logo-generator/debugger/snapshots/trace-01/full-state",
+  "write_full_state": true,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Broken XML with special characters",
+      "changed_files": [
+        "logo.py"
+      ],
+      "written_files": [
+        "logo.py"
+      ],
+      "all_files": [
+        "logo.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Escape + add a quick probe",
+      "changed_files": [
+        "logo.py"
+      ],
+      "written_files": [
+        "logo.py"
+      ],
+      "all_files": [
+        "logo.py"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Theme flag + stable formatting",
+      "changed_files": [
+        "logo.py"
+      ],
+      "written_files": [
+        "logo.py"
+      ],
+      "all_files": [
+        "logo.py"
+      ]
+    }
+  ]
+}

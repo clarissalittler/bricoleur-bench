@@ -1,0 +1,46 @@
+{
+  "trace": "traces/svg-logo-generator/planner/trace-01.md",
+  "output_root": "traces/svg-logo-generator/planner/snapshots/trace-01/changed-only",
+  "write_full_state": false,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Renderer function",
+      "changed_files": [
+        "logo.py"
+      ],
+      "written_files": [
+        "logo.py"
+      ],
+      "all_files": [
+        "logo.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "CLI + default theme",
+      "changed_files": [
+        "logo.py"
+      ],
+      "written_files": [
+        "logo.py"
+      ],
+      "all_files": [
+        "logo.py"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Validation + extra theme",
+      "changed_files": [
+        "logo.py"
+      ],
+      "written_files": [
+        "logo.py"
+      ],
+      "all_files": [
+        "logo.py"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "trace": "traces/ascii-art-poster/bricoleur/trace-01.md",
+  "output_root": "traces/ascii-art-poster/bricoleur/snapshots/trace-01/changed-only",
+  "write_full_state": false,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Quick bordered box (no wrapping yet)",
+      "changed_files": [
+        "poster.py"
+      ],
+      "written_files": [
+        "poster.py"
+      ],
+      "all_files": [
+        "poster.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Adds wrapping; miscounts the border width once",
+      "changed_files": [
+        "poster.py"
+      ],
+      "written_files": [
+        "poster.py"
+      ],
+      "all_files": [
+        "poster.py"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Proper CLI + align + border=none",
+      "changed_files": [
+        "poster.py"
+      ],
+      "written_files": [
+        "poster.py"
+      ],
+      "all_files": [
+        "poster.py"
+      ]
+    }
+  ]
+}

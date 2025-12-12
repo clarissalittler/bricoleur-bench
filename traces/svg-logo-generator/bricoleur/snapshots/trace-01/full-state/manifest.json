@@ -1,0 +1,46 @@
+{
+  "trace": "traces/svg-logo-generator/bricoleur/trace-01.md",
+  "output_root": "traces/svg-logo-generator/bricoleur/snapshots/trace-01/full-state",
+  "write_full_state": true,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Tiny SVG with text (no escaping)",
+      "changed_files": [
+        "logo.py"
+      ],
+      "written_files": [
+        "logo.py"
+      ],
+      "all_files": [
+        "logo.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Add escaping and simple theme flag",
+      "changed_files": [
+        "logo.py"
+      ],
+      "written_files": [
+        "logo.py"
+      ],
+      "all_files": [
+        "logo.py"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Validate dimensions and keep output stable",
+      "changed_files": [
+        "logo.py"
+      ],
+      "written_files": [
+        "logo.py"
+      ],
+      "all_files": [
+        "logo.py"
+      ]
+    }
+  ]
+}

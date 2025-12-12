@@ -1,0 +1,70 @@
+{
+  "trace": "traces/word-frequency-counter/planner/trace-01.md",
+  "output_root": "traces/word-frequency-counter/planner/snapshots/trace-01",
+  "write_full_state": true,
+  "steps": [
+    {
+      "number": 1,
+      "title": "CLI scaffold",
+      "changed_files": [
+        "count_words.py"
+      ],
+      "written_files": [
+        "count_words.py"
+      ],
+      "all_files": [
+        "count_words.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Tokenizer helper",
+      "changed_files": [
+        "count_words.py"
+      ],
+      "written_files": [
+        "count_words.py"
+      ],
+      "all_files": [
+        "count_words.py"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Counting + deterministic sorting",
+      "changed_files": [
+        "count_words.py"
+      ],
+      "written_files": [
+        "count_words.py"
+      ],
+      "all_files": [
+        "count_words.py"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Wiring and validation",
+      "changed_files": [
+        "count_words.py"
+      ],
+      "written_files": [
+        "count_words.py"
+      ],
+      "all_files": [
+        "count_words.py"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Smoke tests (manual)",
+      "changed_files": [],
+      "written_files": [
+        "count_words.py"
+      ],
+      "all_files": [
+        "count_words.py"
+      ]
+    }
+  ]
+}

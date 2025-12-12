@@ -1,0 +1,54 @@
+{
+  "trace": "traces/conway-life-sim/architect/trace-01.md",
+  "output_root": "traces/conway-life-sim/architect/snapshots/trace-01/changed-only",
+  "write_full_state": false,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Core module",
+      "changed_files": [
+        "life_core.py",
+        "patterns/blinker.txt"
+      ],
+      "written_files": [
+        "life_core.py",
+        "patterns/blinker.txt"
+      ],
+      "all_files": [
+        "life_core.py",
+        "patterns/blinker.txt"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Parser + renderer",
+      "changed_files": [
+        "life_io.py"
+      ],
+      "written_files": [
+        "life_io.py"
+      ],
+      "all_files": [
+        "life_core.py",
+        "life_io.py",
+        "patterns/blinker.txt"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "CLI wiring",
+      "changed_files": [
+        "life.py"
+      ],
+      "written_files": [
+        "life.py"
+      ],
+      "all_files": [
+        "life.py",
+        "life_core.py",
+        "life_io.py",
+        "patterns/blinker.txt"
+      ]
+    }
+  ]
+}

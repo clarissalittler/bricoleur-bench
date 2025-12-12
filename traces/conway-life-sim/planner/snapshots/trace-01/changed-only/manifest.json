@@ -1,0 +1,56 @@
+{
+  "trace": "traces/conway-life-sim/planner/trace-01.md",
+  "output_root": "traces/conway-life-sim/planner/snapshots/trace-01/changed-only",
+  "write_full_state": false,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Parsing and validation",
+      "changed_files": [
+        "life.py",
+        "patterns/blinker.txt",
+        "patterns/glider.txt"
+      ],
+      "written_files": [
+        "life.py",
+        "patterns/blinker.txt",
+        "patterns/glider.txt"
+      ],
+      "all_files": [
+        "life.py",
+        "patterns/blinker.txt",
+        "patterns/glider.txt"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Neighbor count + step rules",
+      "changed_files": [
+        "life.py"
+      ],
+      "written_files": [
+        "life.py"
+      ],
+      "all_files": [
+        "life.py",
+        "patterns/blinker.txt",
+        "patterns/glider.txt"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "CLI, frames, and step validation",
+      "changed_files": [
+        "life.py"
+      ],
+      "written_files": [
+        "life.py"
+      ],
+      "all_files": [
+        "life.py",
+        "patterns/blinker.txt",
+        "patterns/glider.txt"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "trace": "traces/maze-generator-solver/optimizer/trace-01.md",
+  "output_root": "traces/maze-generator-solver/optimizer/snapshots/trace-01/changed-only",
+  "write_full_state": false,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Baseline solver (scans for S/E with nested loops)",
+      "changed_files": [
+        "maze.py"
+      ],
+      "written_files": [
+        "maze.py"
+      ],
+      "all_files": [
+        "maze.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Use a 2D visited grid to reduce tuple hashing",
+      "changed_files": [
+        "maze.py"
+      ],
+      "written_files": [
+        "maze.py"
+      ],
+      "all_files": [
+        "maze.py"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Full CLI with generator (keeps solver internals)",
+      "changed_files": [
+        "maze.py"
+      ],
+      "written_files": [
+        "maze.py"
+      ],
+      "all_files": [
+        "maze.py"
+      ]
+    }
+  ]
+}

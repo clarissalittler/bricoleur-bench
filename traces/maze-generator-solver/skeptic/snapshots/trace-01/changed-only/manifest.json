@@ -1,0 +1,48 @@
+{
+  "trace": "traces/maze-generator-solver/skeptic/trace-01.md",
+  "output_root": "traces/maze-generator-solver/skeptic/snapshots/trace-01/changed-only",
+  "write_full_state": false,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Harness first (generated maze must be solvable)",
+      "changed_files": [
+        "harness.py"
+      ],
+      "written_files": [
+        "harness.py"
+      ],
+      "all_files": [
+        "harness.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Minimal CLI with solvable generator and solver",
+      "changed_files": [
+        "maze.py"
+      ],
+      "written_files": [
+        "maze.py"
+      ],
+      "all_files": [
+        "harness.py",
+        "maze.py"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Strict validation of maze files",
+      "changed_files": [
+        "maze.py"
+      ],
+      "written_files": [
+        "maze.py"
+      ],
+      "all_files": [
+        "harness.py",
+        "maze.py"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "trace": "traces/haiku-generator/bricoleur/trace-02.md",
+  "output_root": "traces/haiku-generator/bricoleur/snapshots/trace-02/changed-only",
+  "write_full_state": false,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Add optional theme word bias",
+      "changed_files": [
+        "haiku.py"
+      ],
+      "written_files": [
+        "haiku.py"
+      ],
+      "all_files": [
+        "haiku.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Make output shape stricter for micro style",
+      "changed_files": [
+        "haiku.py"
+      ],
+      "written_files": [
+        "haiku.py"
+      ],
+      "all_files": [
+        "haiku.py"
+      ]
+    }
+  ]
+}

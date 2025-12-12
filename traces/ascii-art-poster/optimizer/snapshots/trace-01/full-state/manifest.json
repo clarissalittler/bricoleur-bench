@@ -1,0 +1,46 @@
+{
+  "trace": "traces/ascii-art-poster/optimizer/trace-01.md",
+  "output_root": "traces/ascii-art-poster/optimizer/snapshots/trace-01/full-state",
+  "write_full_state": true,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Baseline (works, a bit allocation-heavy)",
+      "changed_files": [
+        "poster.py"
+      ],
+      "written_files": [
+        "poster.py"
+      ],
+      "all_files": [
+        "poster.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Precompute border strings; avoid generator join surprises",
+      "changed_files": [
+        "poster.py"
+      ],
+      "written_files": [
+        "poster.py"
+      ],
+      "all_files": [
+        "poster.py"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Add CLI flags (keeps default deterministic)",
+      "changed_files": [
+        "poster.py"
+      ],
+      "written_files": [
+        "poster.py"
+      ],
+      "all_files": [
+        "poster.py"
+      ]
+    }
+  ]
+}

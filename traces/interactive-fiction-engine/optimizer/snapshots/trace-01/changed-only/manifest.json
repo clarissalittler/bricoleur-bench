@@ -1,0 +1,51 @@
+{
+  "trace": "traces/interactive-fiction-engine/optimizer/trace-01.md",
+  "output_root": "traces/interactive-fiction-engine/optimizer/snapshots/trace-01/changed-only",
+  "write_full_state": false,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Baseline loop (dict-heavy)",
+      "changed_files": [
+        "example-story.json",
+        "play.py"
+      ],
+      "written_files": [
+        "example-story.json",
+        "play.py"
+      ],
+      "all_files": [
+        "example-story.json",
+        "play.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Preprocess nodes into a simpler internal form",
+      "changed_files": [
+        "play.py"
+      ],
+      "written_files": [
+        "play.py"
+      ],
+      "all_files": [
+        "example-story.json",
+        "play.py"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Add input validation (keeps the \u201cfast path\u201d simple)",
+      "changed_files": [
+        "play.py"
+      ],
+      "written_files": [
+        "play.py"
+      ],
+      "all_files": [
+        "example-story.json",
+        "play.py"
+      ]
+    }
+  ]
+}

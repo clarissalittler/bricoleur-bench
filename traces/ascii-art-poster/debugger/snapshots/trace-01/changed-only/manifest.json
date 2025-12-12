@@ -1,0 +1,46 @@
+{
+  "trace": "traces/ascii-art-poster/debugger/trace-01.md",
+  "output_root": "traces/ascii-art-poster/debugger/snapshots/trace-01/changed-only",
+  "write_full_state": false,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Repro case (center alignment looks off)",
+      "changed_files": [
+        "poster.py"
+      ],
+      "written_files": [
+        "poster.py"
+      ],
+      "all_files": [
+        "poster.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Adds probes (length assertions)",
+      "changed_files": [
+        "poster.py"
+      ],
+      "written_files": [
+        "poster.py"
+      ],
+      "all_files": [
+        "poster.py"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "CLI with explicit semantics + border none",
+      "changed_files": [
+        "poster.py"
+      ],
+      "written_files": [
+        "poster.py"
+      ],
+      "all_files": [
+        "poster.py"
+      ]
+    }
+  ]
+}

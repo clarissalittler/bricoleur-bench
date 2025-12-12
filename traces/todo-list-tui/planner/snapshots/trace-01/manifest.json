@@ -1,0 +1,85 @@
+{
+  "trace": "traces/todo-list-tui/planner/trace-01.md",
+  "output_root": "traces/todo-list-tui/planner/snapshots/trace-01",
+  "write_full_state": true,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Decide storage contract (newline-delimited)",
+      "changed_files": [
+        "todo.py"
+      ],
+      "written_files": [
+        "todo.py"
+      ],
+      "all_files": [
+        "todo.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Persistence helpers",
+      "changed_files": [
+        "todo.py"
+      ],
+      "written_files": [
+        "todo.py"
+      ],
+      "all_files": [
+        "todo.py"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "CLI scaffold",
+      "changed_files": [
+        "todo.py"
+      ],
+      "written_files": [
+        "todo.py"
+      ],
+      "all_files": [
+        "todo.py"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Implement `add`",
+      "changed_files": [
+        "todo.py"
+      ],
+      "written_files": [
+        "todo.py"
+      ],
+      "all_files": [
+        "todo.py"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Implement `list`",
+      "changed_files": [
+        "todo.py"
+      ],
+      "written_files": [
+        "todo.py"
+      ],
+      "all_files": [
+        "todo.py"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Implement `done` with validation",
+      "changed_files": [
+        "todo.py"
+      ],
+      "written_files": [
+        "todo.py"
+      ],
+      "all_files": [
+        "todo.py"
+      ]
+    }
+  ]
+}

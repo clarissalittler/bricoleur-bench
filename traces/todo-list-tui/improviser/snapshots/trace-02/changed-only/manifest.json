@@ -1,0 +1,33 @@
+{
+  "trace": "traces/todo-list-tui/improviser/trace-02.md",
+  "output_root": "traces/todo-list-tui/improviser/snapshots/trace-02/changed-only",
+  "write_full_state": false,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Add strict parsing and skip malformed lines",
+      "changed_files": [
+        "todo.py"
+      ],
+      "written_files": [
+        "todo.py"
+      ],
+      "all_files": [
+        "todo.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Add `rm <id>` command",
+      "changed_files": [
+        "todo.py"
+      ],
+      "written_files": [
+        "todo.py"
+      ],
+      "all_files": [
+        "todo.py"
+      ]
+    }
+  ]
+}

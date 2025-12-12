@@ -11,6 +11,8 @@ A methodical path toward the converter. The student outlines steps, implements t
 ## Step 1: Skeleton with argparse and placeholders
 Starts with structure and TODOs.
 
+Snapshot: convert.py
+
 ```python
 import argparse
 
@@ -29,6 +31,8 @@ Notes: Confirms the parser rejects missing direction. Leaves TODO to type the po
 
 ## Step 2: Add typing and basic conversion helpers
 Implements conversion functions and enforces float input.
+
+Snapshot: convert.py
 
 ```python
 import argparse
@@ -60,6 +64,8 @@ Notes: Tests with `--to-f 0` and `--to-c 32` produce expected numbers but withou
 
 ## Step 3: Add formatting and friendlier errors
 Formats output and adds a guard for NaN/inf input.
+
+Snapshot: convert.py
 
 ```python
 import argparse

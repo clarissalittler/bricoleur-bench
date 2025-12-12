@@ -1,0 +1,53 @@
+{
+  "trace": "traces/haiku-generator/optimizer/trace-01.md",
+  "output_root": "traces/haiku-generator/optimizer/snapshots/trace-01/full-state",
+  "write_full_state": true,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Baseline seeded generator",
+      "changed_files": [
+        "haiku.py",
+        "words/basic.txt"
+      ],
+      "written_files": [
+        "haiku.py",
+        "words/basic.txt"
+      ],
+      "all_files": [
+        "haiku.py",
+        "words/basic.txt"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Batch choice generation (fewer generator chains)",
+      "changed_files": [
+        "haiku.py"
+      ],
+      "written_files": [
+        "haiku.py",
+        "words/basic.txt"
+      ],
+      "all_files": [
+        "haiku.py",
+        "words/basic.txt"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Add validation but keep hot path simple",
+      "changed_files": [
+        "haiku.py"
+      ],
+      "written_files": [
+        "haiku.py",
+        "words/basic.txt"
+      ],
+      "all_files": [
+        "haiku.py",
+        "words/basic.txt"
+      ]
+    }
+  ]
+}

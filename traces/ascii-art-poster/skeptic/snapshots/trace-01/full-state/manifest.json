@@ -1,0 +1,50 @@
+{
+  "trace": "traces/ascii-art-poster/skeptic/trace-01.md",
+  "output_root": "traces/ascii-art-poster/skeptic/snapshots/trace-01/full-state",
+  "write_full_state": true,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Pin an expected default output for `\"hi\"`",
+      "changed_files": [
+        "harness.py"
+      ],
+      "written_files": [
+        "harness.py"
+      ],
+      "all_files": [
+        "harness.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Minimal `poster.py` to satisfy the harness",
+      "changed_files": [
+        "poster.py"
+      ],
+      "written_files": [
+        "harness.py",
+        "poster.py"
+      ],
+      "all_files": [
+        "harness.py",
+        "poster.py"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Expand to align + border none (adds new checks)",
+      "changed_files": [
+        "poster.py"
+      ],
+      "written_files": [
+        "harness.py",
+        "poster.py"
+      ],
+      "all_files": [
+        "harness.py",
+        "poster.py"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "trace": "traces/temperature-converter/planner/trace-01.md",
+  "output_root": "traces/temperature-converter/planner/snapshots/trace-01/changed-only",
+  "write_full_state": false,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Skeleton with argparse and placeholders",
+      "changed_files": [
+        "convert.py"
+      ],
+      "written_files": [
+        "convert.py"
+      ],
+      "all_files": [
+        "convert.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Add typing and basic conversion helpers",
+      "changed_files": [
+        "convert.py"
+      ],
+      "written_files": [
+        "convert.py"
+      ],
+      "all_files": [
+        "convert.py"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Add formatting and friendlier errors",
+      "changed_files": [
+        "convert.py"
+      ],
+      "written_files": [
+        "convert.py"
+      ],
+      "all_files": [
+        "convert.py"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Document usage and edge cases",
+      "changed_files": [],
+      "written_files": [],
+      "all_files": [
+        "convert.py"
+      ]
+    }
+  ]
+}

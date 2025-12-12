@@ -1,0 +1,33 @@
+{
+  "trace": "traces/haiku-generator/planner/trace-02.md",
+  "output_root": "traces/haiku-generator/planner/snapshots/trace-02/full-state",
+  "write_full_state": true,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Add optional theme word bias",
+      "changed_files": [
+        "haiku.py"
+      ],
+      "written_files": [
+        "haiku.py"
+      ],
+      "all_files": [
+        "haiku.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Make output shape stricter for micro style",
+      "changed_files": [
+        "haiku.py"
+      ],
+      "written_files": [
+        "haiku.py"
+      ],
+      "all_files": [
+        "haiku.py"
+      ]
+    }
+  ]
+}

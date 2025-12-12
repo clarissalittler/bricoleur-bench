@@ -1,0 +1,53 @@
+{
+  "trace": "traces/haiku-generator/planner/trace-01.md",
+  "output_root": "traces/haiku-generator/planner/snapshots/trace-01/full-state",
+  "write_full_state": true,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Core generator functions",
+      "changed_files": [
+        "haiku.py",
+        "words/basic.txt"
+      ],
+      "written_files": [
+        "haiku.py",
+        "words/basic.txt"
+      ],
+      "all_files": [
+        "haiku.py",
+        "words/basic.txt"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "CLI with deterministic seed",
+      "changed_files": [
+        "haiku.py"
+      ],
+      "written_files": [
+        "haiku.py",
+        "words/basic.txt"
+      ],
+      "all_files": [
+        "haiku.py",
+        "words/basic.txt"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Validation and clear errors",
+      "changed_files": [
+        "haiku.py"
+      ],
+      "written_files": [
+        "haiku.py",
+        "words/basic.txt"
+      ],
+      "all_files": [
+        "haiku.py",
+        "words/basic.txt"
+      ]
+    }
+  ]
+}

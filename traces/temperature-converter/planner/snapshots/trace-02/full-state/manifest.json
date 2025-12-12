@@ -1,0 +1,33 @@
+{
+  "trace": "traces/temperature-converter/planner/trace-02.md",
+  "output_root": "traces/temperature-converter/planner/snapshots/trace-02/full-state",
+  "write_full_state": true,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Baseline works; tighten UX",
+      "changed_files": [
+        "convert.py"
+      ],
+      "written_files": [
+        "convert.py"
+      ],
+      "all_files": [
+        "convert.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Better help + clearer errors",
+      "changed_files": [
+        "convert.py"
+      ],
+      "written_files": [
+        "convert.py"
+      ],
+      "all_files": [
+        "convert.py"
+      ]
+    }
+  ]
+}

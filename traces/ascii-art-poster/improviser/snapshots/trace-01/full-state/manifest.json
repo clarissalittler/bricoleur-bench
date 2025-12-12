@@ -1,0 +1,46 @@
+{
+  "trace": "traces/ascii-art-poster/improviser/trace-01.md",
+  "output_root": "traces/ascii-art-poster/improviser/snapshots/trace-01/full-state",
+  "write_full_state": true,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Spike a poster (hard-coded width)",
+      "changed_files": [
+        "poster.py"
+      ],
+      "written_files": [
+        "poster.py"
+      ],
+      "all_files": [
+        "poster.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Adds wrapping and alignment (forgets border=none)",
+      "changed_files": [
+        "poster.py"
+      ],
+      "written_files": [
+        "poster.py"
+      ],
+      "all_files": [
+        "poster.py"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Argparse + `--border none` + input validation",
+      "changed_files": [
+        "poster.py"
+      ],
+      "written_files": [
+        "poster.py"
+      ],
+      "all_files": [
+        "poster.py"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "trace": "traces/svg-logo-generator/architect/trace-01.md",
+  "output_root": "traces/svg-logo-generator/architect/snapshots/trace-01/full-state",
+  "write_full_state": true,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Theme + rendering module",
+      "changed_files": [
+        "logo_core.py"
+      ],
+      "written_files": [
+        "logo_core.py"
+      ],
+      "all_files": [
+        "logo_core.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "CLI wrapper with validation",
+      "changed_files": [
+        "logo.py"
+      ],
+      "written_files": [
+        "logo.py",
+        "logo_core.py"
+      ],
+      "all_files": [
+        "logo.py",
+        "logo_core.py"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Add room for layout changes without affecting defaults",
+      "changed_files": [
+        "logo_core.py"
+      ],
+      "written_files": [
+        "logo.py",
+        "logo_core.py"
+      ],
+      "all_files": [
+        "logo.py",
+        "logo_core.py"
+      ]
+    }
+  ]
+}

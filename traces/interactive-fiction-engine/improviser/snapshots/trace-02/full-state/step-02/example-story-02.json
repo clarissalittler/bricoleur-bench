@@ -1,0 +1,13 @@
+{
+  "start": "start",
+  "nodes": {
+    "start": {
+      "text": "A fork in the road.",
+      "choices": [
+        { "label": "Go left", "to": "left" },
+        { "label": "Go right", "to": "missing_node" }
+      ]
+    },
+    "left": { "text": "Left is quiet.", "end": true, "choices": [] }
+  }
+}

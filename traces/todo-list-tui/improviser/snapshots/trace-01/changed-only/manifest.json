@@ -1,0 +1,85 @@
+{
+  "trace": "traces/todo-list-tui/improviser/trace-01.md",
+  "output_root": "traces/todo-list-tui/improviser/snapshots/trace-01/changed-only",
+  "write_full_state": false,
+  "steps": [
+    {
+      "number": 1,
+      "title": "One-file spike (works, ugly output)",
+      "changed_files": [
+        "todo.py"
+      ],
+      "written_files": [
+        "todo.py"
+      ],
+      "all_files": [
+        "todo.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Quick \u201cID fix\u201d (introduces 0/1 confusion)",
+      "changed_files": [
+        "todo.py"
+      ],
+      "written_files": [
+        "todo.py"
+      ],
+      "all_files": [
+        "todo.py"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Switch to a clearer storage line",
+      "changed_files": [
+        "todo.py"
+      ],
+      "written_files": [
+        "todo.py"
+      ],
+      "all_files": [
+        "todo.py"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Argparse rework (half-migrated for a moment)",
+      "changed_files": [
+        "todo.py"
+      ],
+      "written_files": [
+        "todo.py"
+      ],
+      "all_files": [
+        "todo.py"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Implement add/list with pretty output",
+      "changed_files": [
+        "todo.py"
+      ],
+      "written_files": [
+        "todo.py"
+      ],
+      "all_files": [
+        "todo.py"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Implement `done` with guardrails",
+      "changed_files": [
+        "todo.py"
+      ],
+      "written_files": [
+        "todo.py"
+      ],
+      "all_files": [
+        "todo.py"
+      ]
+    }
+  ]
+}

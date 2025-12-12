@@ -1,0 +1,10 @@
+river
+stone
+wind
+quiet
+lantern
+paper
+shadow
+morning
+night
+echo

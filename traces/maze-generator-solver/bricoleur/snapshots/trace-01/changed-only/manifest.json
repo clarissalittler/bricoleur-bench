@@ -1,0 +1,46 @@
+{
+  "trace": "traces/maze-generator-solver/bricoleur/trace-01.md",
+  "output_root": "traces/maze-generator-solver/bricoleur/snapshots/trace-01/changed-only",
+  "write_full_state": false,
+  "steps": [
+    {
+      "number": 1,
+      "title": "Parser + BFS solver (no generator yet)",
+      "changed_files": [
+        "maze.py"
+      ],
+      "written_files": [
+        "maze.py"
+      ],
+      "all_files": [
+        "maze.py"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Add generator (guaranteed solvable path)",
+      "changed_files": [
+        "maze.py"
+      ],
+      "written_files": [
+        "maze.py"
+      ],
+      "all_files": [
+        "maze.py"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Validation for characters + exactly one S/E",
+      "changed_files": [
+        "maze.py"
+      ],
+      "written_files": [
+        "maze.py"
+      ],
+      "all_files": [
+        "maze.py"
+      ]
+    }
+  ]
+}
